@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Switcher from "./components/Switcher";
 import { LanguageProvider } from "./context/LanguageContext";
 import { ThemeProvider } from "./context/ThemeContext";
+import "flowbite";
 
 function App() {
   return (
