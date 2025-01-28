@@ -12,6 +12,7 @@ import { ThemeProvider } from "./context/ThemeContext";
 function App() {
   return (
     <div>
+      <h1 className="text-xl text-purple-600"> dasdas</h1>
       <ThemeProvider>
         <LanguageProvider>
           <Switcher />
