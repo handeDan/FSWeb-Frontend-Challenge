@@ -7,18 +7,21 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Switcher from "./components/Switcher";
 import { LanguageProvider } from "./context/LanguageContext";
+import { ThemeProvider } from "./context/ThemeContext";
 
 function App() {
   return (
     <div>
       <LanguageProvider>
-        <Switcher />
-        <Header />
-        <Main />
-        <Skills />
-        <Profile />
-        <Projects />
-        <Footer />
+        <ThemeProvider>
+          <Switcher />
+          <Header />
+          <Main />
+          <Skills />
+          <Profile />
+          <Projects />
+          <Footer />
+        </ThemeProvider>
       </LanguageProvider>
     </div>
   );

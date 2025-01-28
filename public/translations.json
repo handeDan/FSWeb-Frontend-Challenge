@@ -28,7 +28,7 @@
     "role_answer": "Frontend || Backend",
     "aboutMe": "Tasarım odaklı düşünme becerimi, yazılım geliştirme yetkinliklerimle birleştirerek dijital dünyada kullanıcı deneyimini iyileştiren çözümler üretmeyi amaçlıyorum. İç mimarlık geçmişim, estetik ve fonksiyonelliği ön planda tutmamı sağlarken; JavaScript, React ve diğer modern teknolojilerle geliştirdiğim projeler, bu vizyonumu hayata geçirmeme olanak tanıyor. Yeniliğe açık, detay odaklı ve öğrenmeye tutkuyla bağlı bir profesyonel olarak, güçlü teknik altyapıyla yaratıcı projeler geliştirmek en büyük motivasyonum.",
     "projectsContents": {
-      "projectsContents_1": {
+      "cont_1": {
         "title": "Pizza React Projesi",
         "description": "",
         "buton_1": "react",
@@ -37,7 +37,7 @@
         "link_1": "Github",
         "link_2": "Siteye Git"
       },
-      "projectsContents_2": {
+      "cont_2": {
         "title": "Sepete Ekleme Projesi",
         "description": "",
         "buton_1": "react",
@@ -46,7 +46,7 @@
         "link_1": "Github",
         "link_2": "Siteye Git"
       },
-      "projectsContents_3": {
+      "cont_3": {
         "title": "WitFlix Projesi",
         "description": "",
         "buton_1": "react",
