@@ -13,7 +13,6 @@ function Header() {
         </div>
         <nav>
           <ul>
-            <li>{getText("language")}</li>
             <li>{getText("skills")}</li>
             <li>{getText("projects")}</li>
             <li>{getText("profile")}</li>

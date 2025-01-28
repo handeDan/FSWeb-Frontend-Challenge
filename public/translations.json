@@ -1,8 +1,9 @@
 {
   "tr": {
-    "language": "İNGİLİZCE'YE GEÇ",
+    "language": "İNGİLİZCE",
+    "language_v2": "'YE GEÇ",
     "modeDark": "KARANLIK MOD",
-    "modeLight": "AYDINLIK MOD",
+    "modeLight": "KARANLIK MOD",
     "skills": "Yetenekler",
     "projects": "Projeler",
     "hireMe": "İşe Al",
@@ -63,9 +64,10 @@
     "footer_link3": "Linkedin"
   },
   "en": {
-    "language": "SWICTH TO TURKISH",
+    "language": "TURKISH",
+    "language_v2": "SWITCH TO",
     "modeDark": "DARK MODE",
-    "modeLight": "LIGHT MODE",
+    "modeLight": "DARK MODE",
     "skills": "Skills",
     "projects": "Projects",
     "hireMe": "Hire me",
