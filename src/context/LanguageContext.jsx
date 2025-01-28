@@ -26,14 +26,14 @@ export const LanguageProvider = ({ children }) => {
         console.error("Çeviri dosyası yüklenirken hata oluştu:", error)
       );
   }, []);
-
+  //language her değiştiğinde localStorage'e kaydetmek için:
   useEffect(() => {
     localStorage.setItem("language", language);
   }, [language]);
 
   //language'e bağlı olarak istenen text'i(shortcut) çekiyoruz(ekranda kullanıcaz):
   const getText = (shortcut) => {
-    if (!translations || !translations[language]) return shortcut; // Eğer veriler yüklenmediyse shortcut'ı döndür
+    if (!translations || !translations[language]) return "loading.."; // Eğer veriler yüklenmediyse shortcut'ı döndür
     return translations[language]?.[shortcut] || shortcut; // Çeviri yoksa yine shortcut'ı döndür
   };
 

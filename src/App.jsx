@@ -12,8 +12,8 @@ import { ThemeProvider } from "./context/ThemeContext";
 function App() {
   return (
     <div>
-      <LanguageProvider>
-        <ThemeProvider>
+      <ThemeProvider>
+        <LanguageProvider>
           <Switcher />
           <Header />
           <Main />
@@ -21,8 +21,8 @@ function App() {
           <Profile />
           <Projects />
           <Footer />
-        </ThemeProvider>
-      </LanguageProvider>
+        </LanguageProvider>
+      </ThemeProvider>
     </div>
   );
 }

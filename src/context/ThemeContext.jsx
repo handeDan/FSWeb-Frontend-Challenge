@@ -9,16 +9,14 @@ export const ThemeProvider = ({ children }) => {
   const [darkMode, setDarkMode] = useState(
     localStorage.getItem("theme") === "dark"
   );
-
+  //theme her değiştiğinde localStorage'e kaydetmek ve className'i ona göre eklemek için:
   useEffect(() => {
     document.body.className = darkMode ? "dark" : "light";
     localStorage.setItem("theme", darkMode ? "dark" : "light");
   }, [darkMode]);
 
   const toggleTheme = () => {
-    setDarkMode((prevMode) => {
-      setDarkMode((prevMode) => !prevMode);
-    });
+    setDarkMode((prevMode) => !prevMode);
   };
 
   return (
