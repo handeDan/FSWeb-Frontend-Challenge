@@ -18,7 +18,7 @@ export const LanguageProvider = ({ children }) => {
 
   useEffect(() => {
     axios
-      .get("/translations.json") //HEM TR HEM EN DATA GELİYOR komple..
+      .get("/src/assets/translations.json") //HEM TR HEM EN DATA GELİYOR komple..
       .then((response) => {
         setTranslations(response.data);
       })
