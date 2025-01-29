@@ -22,7 +22,7 @@ function Card({ item }) {
           {getText(item.buton_3)}
         </button>
       </div>
-      <nav className="flex justify-between text-indigo-800 underline m-3">
+      <nav className="flex justify-between text-indigo-800 underline m-3 dark:text-indigo-500">
         <a href={getText(item.link_1)}>Github</a>
         <a href={getText(item.link_2)}>
           {language === "tr" ? "Siteye git" : "View Site"}
