@@ -6,7 +6,7 @@ function Skills() {
 
   return (
     <div className="container">
-      <p className="text-3xl font-bold">{getText("skills")}</p>
+      <p className="text-3xl font-bold pt-14">{getText("skills")}</p>
       <div className="py-3 flex gap-16">
         <div>
           <p className="text-indigo-800 dark:text-indigo-500  text-xl pb-3">

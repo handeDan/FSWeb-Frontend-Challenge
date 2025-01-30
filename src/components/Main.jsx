@@ -7,7 +7,7 @@ function Main() {
   const { getText } = useContext(LanguageContext);
 
   return (
-    <div className="mt-16 flex container h-[60vh]">
+    <div className="mt-16 flex container">
       <div>
         <p className="text-indigo-800 dark:text-indigo-500 font-bold text-xl">
           Hande Dan
