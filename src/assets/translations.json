@@ -42,8 +42,8 @@
         "buton_1": "react",
         "buton_2": "redux",
         "buton_3": "axios",
-        "link_1": "Github",
-        "link_2": "View Site"
+        "link_1": "https://github.com/handeDan/eCommerceApp-Project.git",
+        "link_2": "https://ecommerceapp-project-final.onrender.com/"
       },
       "cont_2": {
         "id": 2,
@@ -53,8 +53,8 @@
         "buton_1": "react",
         "buton_2": "bootstrap 5",
         "buton_3": "Cypress.io",
-        "link_1": "Github",
-        "link_2": "View Site"
+        "link_1": "https://github.com/handeDan/pizzaReact-Project.git",
+        "link_2": "https://pizza-react-project-indol.vercel.app/"
       },
       "cont_3": {
         "id": 3,
@@ -64,8 +64,8 @@
         "buton_1": "react",
         "buton_2": "props",
         "buton_3": "axios",
-        "link_1": "Github",
-        "link_2": "View Site"
+        "link_1": "https://github.com/handeDan/AddToCart-Project.git",
+        "link_2": "https://add-to-cart-project-woad.vercel.app/"
       },
       "cont_4": {
         "id": 4,
@@ -75,8 +75,8 @@
         "buton_1": "javascript",
         "buton_2": "css",
         "buton_3": "media query",
-        "link_1": "Github",
-        "link_2": "View Site"
+        "link_1": "https://github.com/handeDan/Netflix-Project.git",
+        "link_2": "https://netflix-project-git-main-handedans-projects.vercel.app/"
       }
     },
     "footerTitle": "Gelecek projende birlikte çalışalım.",
@@ -132,7 +132,7 @@
         "buton_2": "redux",
         "buton_3": "axios",
         "link_1": "https://github.com/handeDan/eCommerceApp-Project.git",
-        "link_2": "View Site"
+        "link_2": "https://ecommerceapp-project-final.onrender.com/"
       },
       "cont_2": {
         "id": 2,
