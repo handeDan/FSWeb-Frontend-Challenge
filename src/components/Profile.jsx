@@ -31,9 +31,9 @@ function Profile() {
           <p className="text-indigo-800 dark:text-indigo-500 text-xl pb-3">
             {getText("profileTittle_2")}
           </p>
-          <p>{getText("aboutMe_1")}</p>
+          <p className="text-sm">{getText("aboutMe_1")}</p>
           <br />
-          <p>{getText("aboutMe_2")}</p>
+          <p className="text-sm">{getText("aboutMe_2")}</p>
         </div>
       </div>
       <br />
