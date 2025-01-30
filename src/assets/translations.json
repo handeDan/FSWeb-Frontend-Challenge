@@ -165,10 +165,13 @@
         "link_2": "https://netflix-project-git-main-handedans-projects.vercel.app/"
       }
     },
-    "footerTitle": "Let's work together on your next product!",
+    "footerTitle": "Let's work together on your next product.",
     "email": "hande.dann@gmail.com",
-    "footer_link1": "Personal Blog",
-    "footer_link2": "Github",
-    "footer_link3": "Linkedin"
+    "footer_link1_text": "Personal Blog",
+    "footer_link1": "",
+    "footer_link2_text": "Github",
+    "footer_link2": "https://github.com/handeDan",
+    "footer_link3_text": "Linkedin",
+    "footer_link3": "https://www.linkedin.com/in/hande-dan/"
   }
 }
