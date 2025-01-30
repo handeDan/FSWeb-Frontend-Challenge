@@ -5,7 +5,7 @@ function Profile() {
   const { getText } = useContext(LanguageContext);
 
   return (
-    <div>
+    <div className="container">
       <p className="text-2xl font-bold ">{getText("profile")}</p>
       <div className="py-3 flex gap-32">
         <div>

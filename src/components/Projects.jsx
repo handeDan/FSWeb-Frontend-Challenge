@@ -10,7 +10,7 @@ function Projects() {
 
   return (
     //contents nesne olduğu için önce Object.values() ile diziye çeviriyoruz
-    <div className="mb-10">
+    <div className="mb-10 container">
       <p className="text-2xl font-bold pb-3">
         {translations[language]?.projects}
       </p>

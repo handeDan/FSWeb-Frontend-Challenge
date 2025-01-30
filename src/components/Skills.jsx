@@ -5,7 +5,7 @@ function Skills() {
   const { getText } = useContext(LanguageContext);
 
   return (
-    <div>
+    <div className="container">
       <p className="text-2xl font-bold pt-14">{getText("skills")}</p>
       <div className="py-3 flex gap-16">
         <div>
