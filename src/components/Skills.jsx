@@ -6,22 +6,22 @@ function Skills() {
 
   return (
     <div className="container">
-      <p className="text-2xl font-bold pt-14">{getText("skills")}</p>
+      <p className="text-3xl font-bold">{getText("skills")}</p>
       <div className="py-3 flex gap-16">
         <div>
-          <p className="text-indigo-800 dark:text-indigo-500  text-lg pb-3">
+          <p className="text-indigo-800 dark:text-indigo-500  text-xl pb-3">
             {getText("skills_1")}
           </p>
           <p>{getText("skills_1_desc")}</p>
         </div>
         <div>
-          <p className="text-indigo-800 dark:text-indigo-500  text-lg pb-3">
+          <p className="text-indigo-800 dark:text-indigo-500  text-xl pb-3">
             {getText("skills_2")}
           </p>
           <p>{getText("skills_2_desc")}</p>
         </div>
         <div>
-          <p className="text-indigo-800 dark:text-indigo-500  text-lg pb-3">
+          <p className="text-indigo-800 dark:text-indigo-500  text-xl pb-3">
             {getText("skills_3")}
           </p>
           <p>{getText("skills_3_desc")}</p>

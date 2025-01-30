@@ -1,11 +1,13 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../context/LanguageContext";
+import { BiLogoGithub } from "react-icons/bi";
+import { TfiLinkedin } from "react-icons/tfi";
 
 function Main() {
   const { getText } = useContext(LanguageContext);
 
   return (
-    <div className="mt-10 flex container">
+    <div className="mt-16 flex container h-[60vh]">
       <div>
         <p className="text-indigo-800 dark:text-indigo-500 font-bold text-xl">
           Hande Dan
@@ -16,13 +18,15 @@ function Main() {
         <br />
         <p className="pr-16">{getText("mainText")}</p>
         <div className="mt-7 flex gap-5">
-          <button className="border border-indigo-800 px-4 py-2 rounded-md bg-indigo-800 text-white dark:text-white font-bold dark:border-white">
+          <button className="border border-indigo-800 px-4 py-2 rounded-md hover:bg-indigo-800 hover:text-white text-indigo-800 dark:text-white font-bold dark:border-white">
             {getText("mainButton1")}
           </button>
-          <button className="border border-indigo-800 px-4 py-2 rounded-md text-indigo-800 dark:text-white font-bold dark:border-white">
+          <button className="flex gap-2 border border-indigo-800 px-2 py-2 rounded-md hover:bg-indigo-800 hover:text-white text-indigo-800 dark:text-white font-bold dark:border-white">
+            <BiLogoGithub className="text-2xl" />
             {getText("mainButton2")}
           </button>
-          <button className="border border-indigo-800 px-4 py-2 rounded-md text-indigo-800 dark:text-white font-bold dark:border-white">
+          <button className="flex gap-2 border border-indigo-800 px-2 py-2 rounded-md hover:bg-indigo-800 hover:text-white text-indigo-800 dark:text-white font-bold dark:border-white">
+            <TfiLinkedin className="text-xl" />
             {getText("mainButton3")}
           </button>
         </div>

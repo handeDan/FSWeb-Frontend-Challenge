@@ -10,7 +10,7 @@
     "name": "Hande Dan",
     "mainTitle_1": "Yaratıcı düşünen,",
     "mainTitle_2": "Minimalizm aşığı",
-    "mainText": "Merhaba, ben Hande. Şu sıralar JavaScript, CSS, HTML5, React ve Java gibi teknolojilere odaklanarak Full Stack eğitimi alan bir iç mimarım. Tasarım geçmişimi gelişen teknik becerilerimle birleştirerek yenilikçi ve kullanıcı dostu dijital çözümler üretmeyi hedefliyorum.",
+    "mainText": "Merhaba, ben Hande. Güncel teknolojilere odaklanarak Full Stack eğitimi almış bir iç mimarım. Eğer kullanıcı deneyimleriyle uyumlu ve ölçeklenebilir frontend ve backend ürünleri geliştirebilecek bir developer arıyorsanız, sizinle iş birliği yapmaktan memnuniyet duyarım.",
     "mainButton1": "Beni işe al",
     "mainButton2": "Github",
     "mainButton3": "Linkedin",
@@ -79,11 +79,14 @@
         "link_2": "View Site"
       }
     },
-    "footerTitle": "Gelecek projende birlikte çalışalım!",
+    "footerTitle": "Gelecek projende birlikte çalışalım.",
     "email": "hande.dann@gmail.com",
-    "footer_link1": "Kişisel Sayfa",
-    "footer_link2": "Github",
-    "footer_link3": "Linkedin"
+    "footer_link1_text": "Kişisel Blog",
+    "footer_link1": "",
+    "footer_link2_text": "Github",
+    "footer_link2": "https://github.com/handeDan",
+    "footer_link3_text": "Linkedin",
+    "footer_link3": "https://www.linkedin.com/in/hande-dan/"
   },
   "en": {
     "language": "TURKISH",
@@ -96,7 +99,7 @@
     "name": "Hande Dan",
     "mainTitle_1": "Creative thinker",
     "mainTitle_2": "Minimalism lover",
-    "mainText": "Hello, I'm Hande. I am an interior designer currently undergoing full stack development training, focusing on technologies like JavaScript, CSS, HTML5, React and Java. I am eager to combine my design background with my growing technical skills to create innovative and user-friendly digital solutions.",
+    "mainText": "Hello, I'm Hande. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend and backend products with great user experiences. Let’s shake hands with me.",
     "mainButton1": "Hire me",
     "mainButton2": "Github",
     "mainButton3": "Linkedin",
