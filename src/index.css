@@ -21,3 +21,17 @@ body.dark {
 .container {
   padding: 0 100px;
 }
+
+.loading {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #ffffffab;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #422d86;
+  z-index: 5;
+}

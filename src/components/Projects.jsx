@@ -6,7 +6,6 @@ import { LanguageContext } from "../context/LanguageContext";
 function Projects() {
   const { language } = useContext(LanguageContext);
   const contents = translations[language]?.projectsContents;
-  if (!contents) return <div>Loading...</div>; // Eğer içerik yoksa, yükleniyor mesajı
 
   return (
     //contents nesne olduğu için önce Object.values() ile diziye çeviriyoruz

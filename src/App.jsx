@@ -6,24 +6,23 @@ import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Switcher from "./components/Switcher";
-import { LanguageProvider } from "./context/LanguageContext";
-import { ThemeProvider } from "./context/ThemeContext";
+import { LanguageContext } from "./context/LanguageContext";
 import "flowbite";
+import { useContext } from "react";
 
 function App() {
+  const { translations } = useContext(LanguageContext);
+
   return (
     <div>
-      <ThemeProvider>
-        <LanguageProvider>
-          <Switcher />
-          <Header />
-          <Main />
-          <Skills />
-          <Profile />
-          <Projects />
-          <Footer />
-        </LanguageProvider>
-      </ThemeProvider>
+      {!translations && <div className="loading">Loading...</div>}
+      <Switcher />
+      <Header />
+      <Main />
+      <Skills />
+      <Profile />
+      <Projects />
+      <Footer />
     </div>
   );
 }
