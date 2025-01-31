@@ -18,17 +18,29 @@ function Main() {
         <br />
         <p className="pr-16">{getText("mainText")}</p>
         <div className="mt-7 flex gap-5">
-          <button className="border border-indigo-800 px-4 py-2 rounded-md hover:bg-indigo-800 hover:text-white text-indigo-800 dark:text-white font-bold dark:border-white">
+          <a
+            href={getText("mainButton1_link")}
+            target="_blank"
+            className="border border-indigo-800 px-4 py-2 rounded-md hover:bg-indigo-800 hover:text-white text-indigo-800 dark:text-white font-bold dark:border-white"
+          >
             {getText("mainButton1")}
-          </button>
-          <button className="flex gap-2 border border-indigo-800 px-2 py-2 rounded-md hover:bg-indigo-800 hover:text-white text-indigo-800 dark:text-white font-bold dark:border-white">
+          </a>
+          <a
+            href={getText("mainButton2_link")}
+            target="_blank"
+            className="flex gap-2 border border-indigo-800 px-2 py-2 rounded-md hover:bg-indigo-800 hover:text-white text-indigo-800 dark:text-white font-bold dark:border-white"
+          >
             <BiLogoGithub className="text-2xl" />
             {getText("mainButton2")}
-          </button>
-          <button className="flex gap-2 border border-indigo-800 px-2 py-2 rounded-md hover:bg-indigo-800 hover:text-white text-indigo-800 dark:text-white font-bold dark:border-white">
+          </a>
+          <a
+            href={getText("mainButton3_link")}
+            target="_blank"
+            className="flex gap-2 border border-indigo-800 px-2 py-2 rounded-md hover:bg-indigo-800 hover:text-white text-indigo-800 dark:text-white font-bold dark:border-white"
+          >
             <TfiLinkedin className="text-xl" />
             {getText("mainButton3")}
-          </button>
+          </a>
         </div>
       </div>
       <div>
