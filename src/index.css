@@ -35,3 +35,8 @@ body.dark {
   color: #422d86;
   z-index: 5;
 }
+
+.dark .card:hover * {
+  color: black !important;
+  border-color: black !important;
+}

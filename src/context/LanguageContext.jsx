@@ -26,7 +26,7 @@ export const LanguageProvider = ({ children }) => {
         .catch((error) =>
           console.error("Çeviri dosyası yüklenirken hata oluştu:", error)
         );
-    }, 1500);
+    }, 1000);
   }, []);
   //language her değiştiğinde localStorage'e kaydetmek için:
   useEffect(() => {

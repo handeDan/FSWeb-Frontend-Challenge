@@ -5,7 +5,7 @@ function Card({ item }) {
   const { getText, language } = useContext(LanguageContext);
 
   return (
-    <div>
+    <div className="hover:bg-gray-100 dark:hover:text-black card hover:rounded-md p-3">
       <img src={getText(item.image)} alt={getText(item.title)} />
       <p className="text-indigo-800 dark:text-indigo-500 text-2xl py-3">
         {getText(item.title)}

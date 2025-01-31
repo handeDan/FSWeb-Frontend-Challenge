@@ -15,15 +15,25 @@ function Header() {
         </div>
         <nav>
           <ul className="flex justify-end items-center gap-12 mt-5">
-            <button className="hover:border hover:border-indigo-800 px-2 py-2 hover:rounded-md hover:text-indigo-800 dark:text-white hover:font-bold dark:border-white">
+            <a
+              href="#skills"
+              className="hover:border hover:border-indigo-800 px-2 py-2 hover:rounded-md hover:text-indigo-800 dark:text-white hover:font-bold dark:border-white"
+            >
               {getText("skills")}
-            </button>
-            <button className="hover:border hover:border-indigo-800 px-2 py-2 hover:rounded-md hover:text-indigo-800 dark:text-white hover:font-bold dark:border-white">
+            </a>
+            <a
+              href="#projects"
+              className="hover:border hover:border-indigo-800 px-2 py-2 hover:rounded-md hover:text-indigo-800 dark:text-white hover:font-bold dark:border-white"
+            >
               {getText("projects")}
-            </button>
-            <button className="hover:border hover:border-indigo-800 px-2 py-2 hover:rounded-md hover:text-indigo-800 dark:text-white hover:font-bold dark:border-white">
+            </a>
+            <a
+              href={getText("mainButton1_link")}
+              target="_blank"
+              className="hover:border hover:border-indigo-800 px-2 py-2 hover:rounded-md hover:text-indigo-800 dark:text-white hover:font-bold dark:border-white"
+            >
               {getText("hireMe")}
-            </button>
+            </a>
           </ul>
         </nav>
       </header>
