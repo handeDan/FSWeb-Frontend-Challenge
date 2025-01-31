@@ -1,9 +1,29 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { LanguageContext } from "../context/LanguageContext";
 import { FaHandPointRight } from "react-icons/fa6";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Footer() {
   const { getText } = useContext(LanguageContext);
+
+  const email = getText("email");
+  // Mail adresini kopyalama fonksiyonu
+  const copyEmailToClipboard = () => {
+    navigator.clipboard
+      .writeText(email)
+      .then(() => {
+        console.error("Toast Success:");
+        toast.success("Mail Kopyalandı!", {
+          autoClose: 2000, // 2 saniye sonra kapanacak
+        });
+      })
+      .catch(() => {
+        toast.error("Mail kopyalanamadı!", {
+          autoClose: 2000,
+        });
+      });
+  };
 
   return (
     <div className="bg-gray-100 dark:bg-transparent">
@@ -14,9 +34,12 @@ function Footer() {
         <div className="flex justify-between items-center pb-16">
           <div className="flex ">
             <FaHandPointRight className="mr-3 text-xl text-amber-500 dark:text-white" />
-            <a href="" className="text-rose-800 dark:text-indigo-500 underline">
+            <button
+              onClick={copyEmailToClipboard}
+              className="text-rose-800 dark:text-indigo-500 underline"
+            >
               {getText("email")}
-            </a>
+            </button>
           </div>
           <div className="flex gap-5 justify-end">
             <a href={getText("footer_link1")} target="_blank">

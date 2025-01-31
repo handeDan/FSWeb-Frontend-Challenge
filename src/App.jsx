@@ -9,6 +9,7 @@ import Switcher from "./components/Switcher";
 import { LanguageContext } from "./context/LanguageContext";
 import "flowbite";
 import { useContext } from "react";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   const { translations } = useContext(LanguageContext);
@@ -23,6 +24,7 @@ function App() {
       <Profile />
       <Projects />
       <Footer />
+      <ToastContainer />
     </div>
   );
 }
