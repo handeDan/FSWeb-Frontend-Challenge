@@ -39,7 +39,7 @@
     "projectsContents": {
       "cont_1": {
         "id": 1,
-        "image": "/public/images/projects_2.JPG",
+        "image": "/images/projects_2.JPG",
         "title": "E-ticaret Projesi",
         "description": "Redux kullanılarak global store oluşturuldu, local storage'de veri tutuldu ve sayfa yenilendiğinde buradan veri çekildi. Routing, Tailwind css, swiper slider, react hook form, toastify gibi kütüphanelerden yararlanıldı.",
         "buton_1": "react",
@@ -50,7 +50,7 @@
       },
       "cont_2": {
         "id": 2,
-        "image": "/public/images/projects_3.JPG",
+        "image": "/images/projects_3.JPG",
         "title": "Pizza React Projesi",
         "description": "State, props, hooks, component lifecycle, event handling, API entegrasyonu ve unit test üzerine çalışıldı. Sipariş formu görüntüleme ve sipariş bilgilerini diğer ekranda gösterme işlevi kazandırıldı.",
         "buton_1": "react",
@@ -61,7 +61,7 @@
       },
       "cont_3": {
         "id": 3,
-        "image": "/public/images/projects_1.JPG",
+        "image": "/images/projects_1.JPG",
         "title": "Sepete Ekle Projesi",
         "description": "E-ticaret sitesi için kullanıcıların ürünleri sepete eklemesine, favori olarak kaydetmesine ve bunları görüntülemesine, gerektiğinde kaldırmasına olanak tanındı. Proje VSCode'da yazıldı.",
         "buton_1": "react",
@@ -72,7 +72,7 @@
       },
       "cont_4": {
         "id": 4,
-        "image": "/public/images/projects_4.JPG",
+        "image": "/images/projects_4.JPG",
         "title": "WitFlix Projesi",
         "description": "HTML, CSS ve JavaScript kullanılarak static bir web tasarımı oluşturuldu. Farklı ekran boyutlarına optimize edilmesi ve daha iyi bir kullanıcı arayüzü için responsive design ve media query'den de faydalanıldı.",
         "buton_1": "javascript",
@@ -131,7 +131,7 @@
     "projectsContents": {
       "cont_1": {
         "id": 1,
-        "image": "/public/images/projects_2.JPG",
+        "image": "/images/projects_2.JPG",
         "title": "E-commerce Project",
         "description": "A global store was created using Redux, data was stored in local storage, and the data was retrieved from there when the page was refreshed. Libraries such as Routing, Tailwind CSS, Swiper Slider, React Hook Form and Toastify were utilized.",
         "buton_1": "react",
@@ -142,7 +142,7 @@
       },
       "cont_2": {
         "id": 2,
-        "image": "/public/images/projects_3.JPG",
+        "image": "/images/projects_3.JPG",
         "title": "Pizza React Project",
         "description": "Worked on state, props, hooks, component lifecycle, event handling, API integration and unit testing. Implemented functionality to display the order form and show the order details on another screen.",
         "buton_1": "react",
@@ -153,7 +153,7 @@
       },
       "cont_3": {
         "id": 3,
-        "image": "/public/images/projects_1.JPG",
+        "image": "/images/projects_1.JPG",
         "title": "Add to Cart Project",
         "description": "Implemented functionality for users to add products to the cart, save them as favorites, view them and remove them when needed on the e-commerce site. The project was developed using VSCode.",
         "buton_1": "react",
@@ -164,7 +164,7 @@
       },
       "cont_4": {
         "id": 4,
-        "image": "/public/images/projects_4.JPG",
+        "image": "/images/projects_4.JPG",
         "title": "WitFlix Project",
         "description": "A static web design was created using HTML, CSS, and JavaScript. Responsive design and media queries were also utilized to optimize it for different screen sizes and improve the user interface.",
         "buton_1": "javascript",
