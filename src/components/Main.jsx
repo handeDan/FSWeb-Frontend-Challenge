@@ -44,11 +44,7 @@ function Main() {
         </div>
       </div>
       <div>
-        <img
-          src="../../public/images/main.jpg"
-          alt=""
-          className="rounded-2xl w-screen"
-        />
+        <img src="/images/main.jpg" alt="" className="rounded-2xl w-screen" />
       </div>
     </div>
   );
