@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import translations from "../assets/translations.json";
+import translations from "../../public/translations.json";
 import Card from "./Card";
 import { LanguageContext } from "../context/LanguageContext";
 

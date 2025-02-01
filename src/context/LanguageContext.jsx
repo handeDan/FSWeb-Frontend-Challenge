@@ -19,7 +19,7 @@ export const LanguageProvider = ({ children }) => {
   useEffect(() => {
     setTimeout(() => {
       axios
-        .get("/src/assets/translations.json") //HEM TR HEM EN DATA GELİYOR komple..
+        .get("translations.json") //HEM TR HEM EN DATA GELİYOR komple..
         .then((response) => {
           setTranslations(response.data);
         })
