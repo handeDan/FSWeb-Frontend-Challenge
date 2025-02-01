@@ -6,7 +6,7 @@ function Header() {
 
   // dile bağlı olarak getText'i her componentte shortcut'la çalıştırıyoruz:
   return (
-    <div className="container h-[10vh]">
+    <div className="headerComponent container h-[10vh]">
       <header className="flex justify-between items-end align">
         <div>
           <h1 className="flex justify-center items-center w-10 h-10 bg-indigo-200 text-indigo-800 font-bold rounded-full">

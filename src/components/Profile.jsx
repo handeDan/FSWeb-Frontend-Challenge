@@ -5,14 +5,14 @@ function Profile() {
   const { getText } = useContext(LanguageContext);
 
   return (
-    <div className="container">
+    <div className="profileComponent container">
       <p className="text-3xl font-bold ">{getText("profile")}</p>
       <div className="py-3 flex gap-32">
         <div>
           <p className="text-indigo-800 dark:text-indigo-500 text-xl pb-3">
             {getText("profileTittle_1")}
           </p>
-          <div className="flex gap-10">
+          <div className="part1 flex gap-10">
             <div className="flex flex-col gap-1 font-bold">
               <p>{getText("birthDate")}</p>
               <p>{getText("birthPlace")}</p>
@@ -31,9 +31,11 @@ function Profile() {
           <p className="text-indigo-800 dark:text-indigo-500 text-xl pb-3">
             {getText("profileTittle_2")}
           </p>
-          <p className="text-sm">{getText("aboutMe_1")}</p>
-          <br />
-          <p className="text-sm">{getText("aboutMe_2")}</p>
+          <div className="part2">
+            <p className="text-sm">{getText("aboutMe_1")}</p>
+            <br />
+            <p className="text-sm">{getText("aboutMe_2")}</p>
+          </div>
         </div>
       </div>
       <br />

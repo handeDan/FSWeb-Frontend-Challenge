@@ -8,7 +8,7 @@ function Switcher() {
   const { darkMode, handleThemeToggle } = useContext(ThemeContext);
 
   return (
-    <div className="flex justify-end container mt-6">
+    <div className="switcherContainer flex justify-end container mt-6">
       <label className="inline-flex items-center cursor-pointer">
         <input
           type="checkbox"

@@ -26,7 +26,7 @@ function Footer() {
   };
 
   return (
-    <div className="bg-gray-100 dark:bg-transparent">
+    <div className="footerComponent bg-gray-100 dark:bg-transparent">
       <div className="container">
         <p className="text-2xl font-bold py-10 w-72">
           {getText("footerTitle")}
