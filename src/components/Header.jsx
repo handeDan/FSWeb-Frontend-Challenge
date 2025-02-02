@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../context/LanguageContext";
+import { motion } from "framer-motion";
 
 function Header() {
   const { getText } = useContext(LanguageContext);
@@ -9,9 +10,16 @@ function Header() {
     <div className="headerComponent container h-[10vh]">
       <header className="flex justify-between items-end align">
         <div>
-          <h1 className="flex justify-center items-center w-10 h-10 bg-indigo-200 text-indigo-800 font-bold rounded-full">
+          <motion.h1
+            className="flex justify-center items-center w-10 h-10 bg-indigo-200 text-indigo-800 font-bold rounded-full"
+            animate={{ x: [-0, 80, 0], rotate: [0, 360] }}
+            transition={{
+              x: { duration: 2, repeat: Infinity, ease: "easeInOut" },
+              rotate: { duration: 5, repeat: Infinity, ease: "easeInOut" },
+            }}
+          >
             H
-          </h1>
+          </motion.h1>
         </div>
         <nav>
           <ul className="flex justify-end items-center gap-12 mt-5">
