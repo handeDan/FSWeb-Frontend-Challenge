@@ -14,24 +14,38 @@ function Switcher() {
           type="checkbox"
           value=""
           className="sr-only peer"
-          checked={darkMode} //theme durumu kontrolü
+          checked={!darkMode} //theme durumu kontrolü
           onChange={handleThemeToggle}
         />
-        <div className="relative w-11 h-6 bg-gray-900 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-yellow-300 after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-indigo-800 dark:peer-checked:bg-indigo-600"></div>
-        <span className="ms-3 text-sm font-medium text-gray-900  dark:text-white">
-          {darkMode ? getText("modeDark") : getText("modeLight")}
+        {darkMode ? (
+          <div className="relative w-11 h-6 bg-stone-700 rounded-full peer-checked:bg-gray-600 transition-all">
+            <div className="absolute top-1 left-1 w-4 h-4 bg-yellow-300 rounded-full peer-checked:translate-x-full transition-all">
+              <div className="absolute top-0 left-0 w-4 h-4 bg-stone-700 rounded-full translate-x-1"></div>
+            </div>
+          </div>
+        ) : (
+          <div className="relative w-11 h-6 bg-gray-800 rounded-full peer-checked:bg-indigo-800 transition-all">
+            <div className="absolute top-1 right-1 w-4 h-4 bg-yellow-300 rounded-full peer-checked:translate-x-full transition-all"></div>
+          </div>
+        )}
+        <span className="ms-3 text-sm font-medium text-gray-900 dark:text-stone-300">
+          {darkMode ? getText("modeLight") : getText("modeDark")}
         </span>
-        <span className="mx-4"> | </span>
+        <span className="mx-4 dark:text-stone-400"> | </span>
       </label>
       <div className="flex justify-center items-center">
-        <p>{language === "en" ? getText("language_v2") : ""}</p>
+        <p className="dark:text-stone-400">
+          {language === "en" ? getText("language_v2") : ""}
+        </p>
         <button
           onClick={toggleLanguage}
-          className="px-2 py-2 text-indigo-800 dark:text-indigo-500 font-bold rounded-md transition-all duration-200"
+          className="px-2 py-2 text-indigo-800 dark:text-violet-300 font-bold rounded-md transition-all duration-200"
         >
           {getText("language")}
         </button>
-        <p>{language === "tr" ? getText("language_v2") : ""}</p>
+        <p className="dark:text-stone-400">
+          {language === "tr" ? getText("language_v2") : ""}
+        </p>
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ body.light {
 }
 
 body.dark {
-  background: #121212;
+  background: #252128;
   color: #ffffff;
 }
 
@@ -36,9 +36,14 @@ body.dark {
   z-index: 5;
 }
 
-.dark .card:hover * {
-  color: black !important;
-  border-color: black !important;
+.dark .card:hover p,
+.dark .card:hover a {
+  color: black;
+}
+
+.dark .card:hover button {
+  color: white;
+  border-color: black;
 }
 
 @media (max-width: 768px) {

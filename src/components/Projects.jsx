@@ -10,7 +10,7 @@ function Projects() {
   return (
     //contents nesne olduğu için önce Object.values() ile diziye çeviriyoruz
     <div className="mb-10 container" id="projects">
-      <p className="text-3xl font-bold pb-3">
+      <p className="text-3xl font-bold pb-3 dark:text-slate-300 text-gray-800">
         {translations[language]?.projects}
       </p>
       <div className="py-3 flex justify-between gap-10">

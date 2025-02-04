@@ -6,10 +6,12 @@ function Profile() {
 
   return (
     <div className="profileComponent container">
-      <p className="text-3xl font-bold ">{getText("profile")}</p>
+      <p className="text-3xl font-bold dark:text-slate-300 text-gray-800">
+        {getText("profile")}
+      </p>
       <div className="py-3 flex gap-32">
         <div>
-          <p className="text-indigo-800 dark:text-indigo-500 text-xl pb-3">
+          <p className="text-indigo-800 dark:text-violet-300 text-xl pb-3">
             {getText("profileTittle_1")}
           </p>
           <div className="part1 flex gap-10">
@@ -28,18 +30,22 @@ function Profile() {
           </div>
         </div>
         <div className="w-1/2 flex flex-col justify-start">
-          <p className="text-indigo-800 dark:text-indigo-500 text-xl pb-3">
+          <p className="text-indigo-800 dark:text-violet-300 text-xl pb-3">
             {getText("profileTittle_2")}
           </p>
           <div className="part2">
-            <p className="text-sm">{getText("aboutMe_1")}</p>
+            <p className="text-sm text-gray-600 dark:text-white">
+              {getText("aboutMe_1")}
+            </p>
             <br />
-            <p className="text-sm">{getText("aboutMe_2")}</p>
+            <p className="text-sm text-gray-600 dark:text-white">
+              {getText("aboutMe_2")}
+            </p>
           </div>
         </div>
       </div>
       <br />
-      <hr />
+      <hr className="dark:border-violet-300" />
       <br />
     </div>
   );
