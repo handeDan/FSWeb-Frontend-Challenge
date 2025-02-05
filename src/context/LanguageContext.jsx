@@ -13,7 +13,7 @@ export const LanguageProvider = ({ children }) => {
     savedLanguage ? savedLanguage : "tr"
   );
   // Varsayılan çeviri:
-  //default olarak {} ama içini useEffect'le dolduruyoruz ve getItem fonksiyonuyla gelen veriden istediğimiz bilgiyi çekeceğiz:
+  //default olarak null ama içini useEffect'le dolduruyoruz ve getItem fonksiyonuyla gelen veriden istediğimiz bilgiyi çekeceğiz:
   const [translations, setTranslations] = useState(null);
 
   useEffect(() => {
